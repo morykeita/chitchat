@@ -8,6 +8,7 @@ import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,7 +30,9 @@ public class UserController {
         return "account-service working";
     }
 
-    @PostMapping
+    @PostMapping(
+            consumes = {MediaType.APPLICATION_JSON_VALUE , MediaType.APPLICATION_ATOM_XML_VALUE},
+            produces = {MediaType.APPLICATION_JSON_VALUE , MediaType.APPLICATION_ATOM_XML_VALUE})
     public ResponseEntity<CreatedUserResponse> createUser(@Valid  @RequestBody CreateUserRequest userDetails){
         ModelMapper mapper = new ModelMapper();
         mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
@@ -37,6 +40,5 @@ public class UserController {
         UserDto createdUser = userService.createUser(userDto);
         CreatedUserResponse responseBody = mapper.map(createdUser,CreatedUserResponse.class);
         return  ResponseEntity.status(HttpStatus.CREATED).body(responseBody);
-
     }
 }

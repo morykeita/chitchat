@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23bec32a-6b53-4a73-bfb3-c18f20a8cab3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/model/CreatedUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/model/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/security/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chitchat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chitchat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/UserServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,9 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -106,6 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581637098013</updated>
       <workItem from="1581637100184" duration="15627000" />
+      <workItem from="1581658393794" duration="472000" />
+      <workItem from="1581658928951" duration="8244000" />
     </task>
     <servers />
   </component>
@@ -113,14 +120,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="428" y="124" width="800" height="677" key="#Notifications" timestamp="1581658956963">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="428" y="124" width="800" height="677" key="#Notifications/67.27.1533.873@67.27.1533.873" timestamp="1581658956963" />
+    <state x="428" y="124" width="800" height="677" key="#Project_Structure" timestamp="1581658746674">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="428" y="124" width="800" height="677" key="#Project_Structure/67.27.1533.873@67.27.1533.873" timestamp="1581658746674" />
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581645761808">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.873@67.27.1533.873" timestamp="1581645761808" />
-    <state x="638" y="207" width="374" height="642" key="#com.intellij.ide.util.MemberChooser" timestamp="1581655948962">
+    <state x="729" y="258" width="652" height="642" key="#com.intellij.ide.util.MemberChooser" timestamp="1581664708367">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="638" y="207" width="374" height="642" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1581655948962" />
+    <state x="729" y="258" width="652" height="642" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1581664708367" />
     <state x="663" y="565" width="302" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581655873593">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -129,38 +144,38 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1581641018231" />
-    <state width="1487" height="161" key="GridCell.Tab.0.bottom" timestamp="1581652402895">
+    <state width="1487" height="161" key="GridCell.Tab.0.bottom" timestamp="1581658889013">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="161" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1581652402895" />
-    <state width="1487" height="161" key="GridCell.Tab.0.center" timestamp="1581652402894">
+    <state width="1487" height="161" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1581658889013" />
+    <state width="1487" height="161" key="GridCell.Tab.0.center" timestamp="1581658889012">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="161" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1581652402894" />
-    <state width="1487" height="161" key="GridCell.Tab.0.left" timestamp="1581652402894">
+    <state width="1487" height="161" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1581658889012" />
+    <state width="1487" height="161" key="GridCell.Tab.0.left" timestamp="1581658889012">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="161" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1581652402894" />
-    <state width="1487" height="161" key="GridCell.Tab.0.right" timestamp="1581652402895">
+    <state width="1487" height="161" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1581658889012" />
+    <state width="1487" height="161" key="GridCell.Tab.0.right" timestamp="1581658889013">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="161" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1581652402895" />
-    <state width="1487" height="161" key="GridCell.Tab.1.bottom" timestamp="1581652394494">
+    <state width="1487" height="161" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1581658889013" />
+    <state width="1325" height="161" key="GridCell.Tab.1.bottom" timestamp="1581658329859">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="161" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1581652394494" />
-    <state width="1487" height="161" key="GridCell.Tab.1.center" timestamp="1581652394494">
+    <state width="1325" height="161" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1581658329859" />
+    <state width="1325" height="161" key="GridCell.Tab.1.center" timestamp="1581658329858">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="161" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1581652394494" />
-    <state width="1487" height="161" key="GridCell.Tab.1.left" timestamp="1581652394493">
+    <state width="1325" height="161" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1581658329858" />
+    <state width="1325" height="161" key="GridCell.Tab.1.left" timestamp="1581658329858">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="161" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1581652394493" />
-    <state width="1487" height="161" key="GridCell.Tab.1.right" timestamp="1581652394494">
+    <state width="1325" height="161" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1581658329858" />
+    <state width="1325" height="161" key="GridCell.Tab.1.right" timestamp="1581658329858">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="161" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1581652394494" />
+    <state width="1325" height="161" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1581658329858" />
     <state x="67" y="170" key="SettingsEditor" timestamp="1581651618836">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -169,6 +184,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="872" y="292" width="728" height="608" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1581656950113" />
+    <state x="506" y="243" width="644" height="439" key="git4idea.merge.GitMergeDialog" timestamp="1581658133731">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="506" y="243" width="644" height="439" key="git4idea.merge.GitMergeDialog/67.27.1533.873@67.27.1533.873" timestamp="1581658133731" />
     <state x="228" y="227" width="1372" height="600" key="new project wizard" timestamp="1581644839025">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
