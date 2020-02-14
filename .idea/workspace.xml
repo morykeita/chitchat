@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23bec32a-6b53-4a73-bfb3-c18f20a8cab3" name="Default Changelist" comment="" />
+    <list default="true" id="23bec32a-6b53-4a73-bfb3-c18f20a8cab3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/model/CreatedUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +22,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -34,6 +49,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -101,10 +117,14 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.873@67.27.1533.873" timestamp="1581645761808" />
-    <state x="638" y="207" width="374" height="642" key="#com.intellij.ide.util.MemberChooser" timestamp="1581652258753">
+    <state x="638" y="207" width="374" height="642" key="#com.intellij.ide.util.MemberChooser" timestamp="1581655948962">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="638" y="207" width="374" height="642" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1581652258753" />
+    <state x="638" y="207" width="374" height="642" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1581655948962" />
+    <state x="663" y="565" width="302" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581655873593">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="663" y="565" width="302" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1533.873@67.27.1533.873" timestamp="1581655873593" />
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1581641018231">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -145,6 +165,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="67" y="170" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1581651618836" />
+    <state x="872" y="292" width="728" height="608" key="find.popup" timestamp="1581656950113">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="872" y="292" width="728" height="608" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1581656950113" />
     <state x="228" y="227" width="1372" height="600" key="new project wizard" timestamp="1581644839025">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
