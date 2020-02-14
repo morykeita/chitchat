@@ -1,0 +1,20 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: api-gateway-service
+  devtools:
+    restart:
+      enabled: true
+
+eureka:
+  client:
+    #service-url: {{http://localhost:8010/eureka/}}
+    register-with-eureka: true
+    #fetch-registry: false
+    proxy-port: 8761
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+
+
