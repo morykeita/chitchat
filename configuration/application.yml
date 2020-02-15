@@ -1,0 +1,10 @@
+gateway:
+  ip: yourApiGatewayIpAddress
+
+token:
+  expiration_time: 1296000000
+  secret: secret
+
+login:
+  url:
+    path: /users/login

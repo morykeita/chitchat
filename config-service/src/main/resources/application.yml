@@ -5,6 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/morykeita/chitchat
+          username: yourUsername
+          password: yourPassword
+          clone-on-start: true
 server:
   port: 8012

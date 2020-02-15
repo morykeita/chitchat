@@ -28,15 +28,4 @@ eureka:
     hostname: localhost
     prefer-ip-address: true
 
-gateway:
-  ip: 192.168.1.5:8011
-
-token:
-  expiration_time: 1296000000
-  secret: secret
-
-login:
-  url:
-    path: /users/login
-
 
