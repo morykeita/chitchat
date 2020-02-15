@@ -2,24 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23bec32a-6b53-4a73-bfb3-c18f20a8cab3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/model/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/security/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/security/WebSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/chitchat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chitchat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/morykeita/apigatewayservice/security/AuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/morykeita/apigatewayservice/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/morykeita/userservice/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +46,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Xm2lAcQbJFEillrOMtM0S70aZt" />
   <component name="ProjectViewState">
@@ -60,7 +71,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager" selected="Spring Boot.ApiGatewayServiceApplication">
@@ -75,6 +86,13 @@
     <configuration name="ApiGatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-gateway-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.morykeita.apigatewayservice.ApiGatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.morykeita.configservice.ConfigServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +116,7 @@
       <item itemvalue="Spring Boot.ApiGatewayServiceApplication" />
       <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -112,7 +131,12 @@
       <updated>1581637098013</updated>
       <workItem from="1581637100184" duration="15627000" />
       <workItem from="1581658393794" duration="472000" />
-      <workItem from="1581658928951" duration="8244000" />
+      <workItem from="1581658928951" duration="8860000" />
+      <workItem from="1581695307398" duration="722000" />
+      <workItem from="1581728196265" duration="235000" />
+      <workItem from="1581728701090" duration="47000" />
+      <workItem from="1581728787797" duration="3776000" />
+      <workItem from="1581732615982" duration="549000" />
     </task>
     <servers />
   </component>
@@ -128,14 +152,18 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="428" y="124" width="800" height="677" key="#Project_Structure/67.27.1533.873@67.27.1533.873" timestamp="1581658746674" />
+    <state x="428" y="124" width="800" height="677" key="#Vim_Emulation" timestamp="1581729160031">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="428" y="124" width="800" height="677" key="#Vim_Emulation/67.27.1533.873@67.27.1533.873" timestamp="1581729160031" />
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581645761808">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.873@67.27.1533.873" timestamp="1581645761808" />
-    <state x="729" y="258" width="652" height="642" key="#com.intellij.ide.util.MemberChooser" timestamp="1581664708367">
+    <state x="729" y="258" width="652" height="642" key="#com.intellij.ide.util.MemberChooser" timestamp="1581730499611">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="729" y="258" width="652" height="642" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1581664708367" />
+    <state x="729" y="258" width="652" height="642" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1581730499611" />
     <state x="663" y="565" width="302" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581655873593">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -176,10 +204,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1325" height="161" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1581658329858" />
-    <state x="67" y="170" key="SettingsEditor" timestamp="1581651618836">
+    <state x="67" y="170" key="SettingsEditor" timestamp="1581728750865">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="67" y="170" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1581651618836" />
+    <state x="67" y="170" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1581728750864" />
     <state x="872" y="292" width="728" height="608" key="find.popup" timestamp="1581656950113">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -188,10 +216,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="506" y="243" width="644" height="439" key="git4idea.merge.GitMergeDialog/67.27.1533.873@67.27.1533.873" timestamp="1581658133731" />
-    <state x="228" y="227" width="1372" height="600" key="new project wizard" timestamp="1581644839025">
+    <state x="228" y="46" width="1372" height="600" key="new project wizard" timestamp="1581732150100">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="228" y="227" width="1372" height="600" key="new project wizard/67.27.1533.873@67.27.1533.873" timestamp="1581644839025" />
+    <state x="228" y="46" width="1372" height="600" key="new project wizard/67.27.1533.873@67.27.1533.873" timestamp="1581732150100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

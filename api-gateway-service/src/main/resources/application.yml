@@ -16,5 +16,23 @@ eureka:
   instance:
     hostname: localhost
     prefer-ip-address: true
+api:
+  login:
+    url:
+      path: /user-service/users/login
+  registration:
+    url:
+      path: /user-service/users
+  h2console:
+    url:
+      path: /user-service/h2-console/**
 
 
+
+authorization:
+  token:
+    header:
+      name: Authorization
+      prefix: Bearer
+token:
+  secret: secret

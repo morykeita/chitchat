@@ -9,12 +9,14 @@
         <module name="account-service" />
         <module name="api-gateway-service" />
         <module name="user-service" />
+        <module name="config-service" />
         <module name="discovery-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account-service" target="1.8" />
       <module name="api-gateway-service" target="1.8" />
+      <module name="config-service" target="1.8" />
       <module name="discovery-service" target="1.8" />
       <module name="user-service" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="account-service" options="-parameters" />
       <module name="api-gateway-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
